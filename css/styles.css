@@ -1,0 +1,230 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #000000;
+  --accent-text-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --shadow-box-color: rgba(0, 0, 0, 0.15);
+  --primery-heading-color: #212121;
+  --main-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --footer-nav-color: rgba(255, 255, 255, 0.6);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/*header*/
+.upper-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--title-text-color);
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.web {
+  color: var(--accent-text-color);
+}
+
+.main-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: var(--accent-text-color);
+}
+
+.contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-text-color);
+}
+
+.main-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+/*header*/
+
+/*main*/
+.title {
+  background-color: var(--title-text-color);
+}
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+
+  background: var(--accent-text-color);
+  box-shadow: 0px 4px 4px var(--shadow-box-color);
+  border-radius: 4px;
+  color: var(--primary-white-color);
+}
+
+.feauture h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primery-heading-color);
+}
+
+.feauture p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-heading-color);
+}
+
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  background-color: var(--main-bg-color);
+  font-size: 16px;
+}
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/*main*/
+
+/*portfolio*/
+
+.portfolio-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-heading-color);
+  background-color: var(--main-bg-color);
+}
+
+.portfolio-nav:hover,
+.portfolio-nav:focus {
+  background-color: var(--accent-text-color);
+  color: var(--primary-white-color);
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--primery-heading-color);
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/*portfolio*/
+
+/*footer*/
+
+address {
+  font-style: normal;
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+.lower-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--primary-white-color);
+}
+
+.footer-nav a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--footer-nav-color);
+}
+
+.footer-nav a:focus {
+  color: var(--accent-text-color);
+}
+
+.footer-nav .map {
+  color: var(--primary-white-color);
+}
+
+/*footer*/
