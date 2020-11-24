@@ -48,7 +48,8 @@ body {
 
 /*header*/
 header {
-  margin: 25px 0;
+  padding: 25px 0;
+  border: 1px solid #ececec;
 }
 .site-nav {
   display: flex;
@@ -128,7 +129,7 @@ nav {
 .title {
   background-color: var(--title-text-color);
   text-align: center;
-  margin: 0 0 94px 0;
+  padding: 94px 0;
   align-content: center;
 }
 
@@ -164,7 +165,7 @@ nav {
 
 .feauture {
   display: flex;
-  margin-bottom: 94px;
+  padding: 94px 0;
 }
 
 .qualities {
@@ -202,7 +203,7 @@ nav {
 }
 .pictures {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .pictures li {
@@ -243,7 +244,7 @@ nav {
 
 .team-expert {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .team-expert li:not(:last-child) {
@@ -259,7 +260,7 @@ nav {
 
 /*portfolio*/
 .portfolio-main {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .categories {
   display: flex;
@@ -296,6 +297,7 @@ nav {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .work:nth-child(3n) {
