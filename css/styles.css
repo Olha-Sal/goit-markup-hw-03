@@ -6,7 +6,7 @@
   --shadow-box-color: rgba(0, 0, 0, 0.15);
   --primery-heading-color: #212121;
   --main-bg-color: #f5f4fa;
-  --footer-bg-color: #2f303a;
+  --dark-bg-color: #2f303a;
   --footer-nav-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -43,7 +43,8 @@ body {
 
 .container {
   width: 1200px;
-  margin: 0 200px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -130,9 +131,9 @@ nav {
 
 /*main*/
 .title {
-  background-color: var(--title-text-color);
+  background-color: var(--dark-bg-color);
   text-align: center;
-  padding: 94px 0;
+  padding: 200px 0;
   align-content: center;
 }
 
@@ -222,6 +223,7 @@ nav {
 }
 
 .team {
+  padding: 94px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -251,7 +253,6 @@ nav {
 
 .team-expert {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-expert li:not(:last-child) {
@@ -272,11 +273,12 @@ nav {
 .categories {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .portfolio-nav {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -284,6 +286,8 @@ nav {
   letter-spacing: 0.03em;
   color: var(--primery-heading-color);
   background-color: var(--main-bg-color);
+  border-radius: 4px;
+  border-color: var(--main-bg-color);
 }
 
 .categories-nav:not(:last-child) {
@@ -315,7 +319,8 @@ nav {
   margin-bottom: 0;
 }
 
-h3 {
+.work h3 {
+  margin: 20px 24px 4px 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -323,7 +328,8 @@ h3 {
   color: var(--primery-heading-color);
 }
 
-p {
+.work p {
+  margin: 0 24px 20px 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -335,7 +341,8 @@ p {
 /*footer*/
 
 footer {
-  background-color: var(--footer-bg-color);
+  padding: 60px 0;
+  background-color: var(--dark-bg-color);
   color: var(--primary-white-color);
   text-decoration: none;
 }
@@ -353,6 +360,7 @@ address {
 }
 
 .footer-nav a {
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
