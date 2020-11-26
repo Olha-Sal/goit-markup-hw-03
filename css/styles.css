@@ -50,18 +50,17 @@ body {
 }
 
 /*header*/
-header {
-  padding: 25px 0;
-  border-bottom: 1px solid #ececec;
-}
 
 .site-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .upper-logo {
   display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   padding-right: 93px;
 
   color: var(--title-text-color);
@@ -75,6 +74,7 @@ header {
 .web {
   color: var(--accent-text-color);
 }
+
 nav {
   display: flex;
 }
@@ -89,6 +89,7 @@ nav {
 }
 
 .main-nav a {
+  padding: 32px 0;
   display: block;
   color: var(--title-text-color);
   font-weight: 500;
@@ -118,6 +119,7 @@ nav {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
 .contacts a:hover,
 .contacts a:focus {
   color: var(--accent-text-color);
@@ -273,13 +275,13 @@ nav {
 
 /*portfolio*/
 .portfolio-main {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .categories {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolio-nav {
