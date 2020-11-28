@@ -41,6 +41,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+img {
+  display: flex;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -220,10 +224,6 @@ nav {
 }
 
 .pictures {
-  display: flex;
-}
-
-img {
   display: flex;
 }
 
